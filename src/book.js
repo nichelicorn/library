@@ -54,7 +54,7 @@ function editBook(book) {
   // console.log(book);
   // return ((book.pageCount) * .75); ~~ this solution didn't work
   //  AssertionError: expected 340 to equal 255
-  // console.log(book.PageCount = book.pageCount * .75);
+  // console.log(book.pageCount = book.pageCount * .75);
   // the console.log on line 57 shows the correct page count of 255, but the return statement shows NaN
   book.pageCount *= .75;
   // not sure why book.pageCount *= .75 works but book.pageCount = book.pageCount * .75 doesn't...
